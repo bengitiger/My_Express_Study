@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon --debug ./bin/www"
+    "test": "nodemon --debug ./bin/www",
+    "start": "pm2 start ./bin/www --name='study1'"
   },
   "dependencies": {
     "body-parser": "~1.16.0",
